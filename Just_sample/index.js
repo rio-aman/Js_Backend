@@ -64,3 +64,8 @@ app.listen(process.env.PORT, () => {
 // well above is a basic server
 //  slash / this is must in app.get 
 
+// jo bhi sensitive data hai use env me daldena hai
+
+// use karne ke leyia top per ek required lekhai hai use lekhna hai or listen ke time procces.env.jo bhi hai name lekhkar use karlo 
+
+// express he expressjs hai
