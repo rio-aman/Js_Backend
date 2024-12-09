@@ -7,3 +7,5 @@ Project uses all standard practices like JWT, bcrypt, access tokens, refresh Tok
 # This is a video series on backend with javascript
 
 - [Model link] (https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
+
+Nodemon this do only when our file save then i restart the server again 
