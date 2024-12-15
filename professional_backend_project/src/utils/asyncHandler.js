@@ -17,8 +17,8 @@
 
 // promises wala handler function
 
-const asyncHandler = async (requestHandler) => {
-    (req,res,next) => {
+const asyncHandler = (requestHandler) => {
+    return (req,res,next) => {
         Promise.resolve(requestHandler(req,res,next)).catch((err)=> next(err))
     }
 }
@@ -26,3 +26,5 @@ const asyncHandler = async (requestHandler) => {
 export {asyncHandler}
 
 // higher order function those functions which can return and use the function or higher order function treat them as variable 
+
+// postman ka dekhna hai yaphir insomnia

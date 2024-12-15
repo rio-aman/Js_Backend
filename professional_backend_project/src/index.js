@@ -36,6 +36,7 @@ const app = express()
 // SECOND APPROACH  (writing all connections in db/db.js then importing in this file)
 
 import connectDB from './db/db.js';
+import {app} from './app.js'
 
 dotenv.config({
     path: './env'
