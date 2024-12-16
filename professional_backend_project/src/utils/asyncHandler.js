@@ -27,4 +27,4 @@ export {asyncHandler}
 
 // higher order function those functions which can return and use the function or higher order function treat them as variable 
 
-// postman ka dekhna hai yaphir insomnia
+// postman ka dekhna hai ya phir insomnia
